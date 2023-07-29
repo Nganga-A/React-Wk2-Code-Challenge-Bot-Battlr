@@ -7,11 +7,14 @@ function App() {
 
 
   return (
-    <div className="App">
-        <h1 className="font-bold text-center">Welcome to Bot Battlr</h1>
+    <div>
+        <div className='container block'>
+        <h1 className="font-bold  text-center">Welcome to Bot Battlr</h1>
+        </div>
           <div className="container">
-            <BotCollection />
-            <YourBotArmy />
+          <YourBotArmy />
+          <BotCollection />
+            
           </div>
     </div>
   );
