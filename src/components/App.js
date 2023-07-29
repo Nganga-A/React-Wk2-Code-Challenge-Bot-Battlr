@@ -8,10 +8,10 @@ function App() {
 
   return (
     <div>
-        <div className='container block'>
-        <h1 className="font-bold  text-center">Welcome to Bot Battlr</h1>
+        <div className='container mx-auto px-4'>
+        <h1 className="text-3xl bg-blue-100 font-bold text-center py-8 border-b-2 border-gray-400 w-full">Welcome to Bot Battlr</h1>
         </div>
-          <div className="container">
+          <div className="container mx-auto px-4">
           <YourBotArmy />
           <BotCollection />
             
