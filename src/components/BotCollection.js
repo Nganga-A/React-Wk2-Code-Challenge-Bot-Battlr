@@ -3,6 +3,7 @@ import BotCard from './BotCard';
 
 function BotCollection() {
     const [bots, setBots] = useState([]);
+    const [army, setArmy] = useState([]);
 
     useEffect(() =>  {
       fetch('http://localhost:3000/bots')
@@ -11,11 +12,14 @@ function BotCollection() {
         setBots(data.slice(0,12));
         })
     }, []);
-
-  const addToArmy =(bot) => {
-        // Implement this function to add the bot to the army
-    // This will be passed to Bot component as a prop
-  }
+  
+  
+    const addToArmy = (bot) => {
+      // Check if the bot is not already in the army
+      if (!army.some((toBeAddedBot) => toBeAddedBot.id === bot.id)) {
+        // If the bot is not in the army, add it to the army
+        setArmy([...army, bot]);
+  } }
 
 
   return (

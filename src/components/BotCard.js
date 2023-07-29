@@ -5,8 +5,9 @@ function BotCard({bot, buttonText, onClickButton}) {
 
   return (
 
-    <div key={bot.id} className="bg-white rounded-lg p-4 shadow-md transition-transform transform hover:scale-105" >
+    <div className="bg-white rounded-lg p-4 shadow-md transition-transform transform hover:scale-105" >
     <img
+      
       src={bot.avatar_url}
       alt={bot.name}
       className="w-32 h-32 mx-auto mb-4 rounded-full"
