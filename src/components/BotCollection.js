@@ -1,7 +1,7 @@
 import React, {useState, useEffect,} from 'react'
 import BotCard from './BotCard';
 
-function BotCollection({ bots, enlistBot }) {
+function BotCollection({ bots, enlistBot, onSelectBot }) {
 
   return (
     
@@ -12,9 +12,10 @@ function BotCollection({ bots, enlistBot }) {
           <BotCard 
           key={bot.id} 
           bot={bot} 
-          //buttonText="Add to Army" 
           enlistBot={enlistBot}
-          //onClickButton={() => addToArmy(bot)} onRelease={onRelease} 
+          buttonText="Show Specs"
+          onClickButton={() => onSelectBot(bot)}
+          
           />
         ))}
         </div>
