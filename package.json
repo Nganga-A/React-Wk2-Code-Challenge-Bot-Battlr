@@ -1,6 +1,6 @@
 {
   "name": "react-wk2-code-challenge-bot-battlr",
-  "homepage": "https://nganga-a.github.io/React-Wk2-Code-Challenge-Bot-Battlr/",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
