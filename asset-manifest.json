@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Wk2-Code-Challenge-Bot-Battlr/static/css/main.1abaea94.css",
+    "main.js": "/React-Wk2-Code-Challenge-Bot-Battlr/static/js/main.1ede5b56.js",
+    "static/js/787.b292e1c6.chunk.js": "/React-Wk2-Code-Challenge-Bot-Battlr/static/js/787.b292e1c6.chunk.js",
+    "index.html": "/React-Wk2-Code-Challenge-Bot-Battlr/index.html",
+    "main.1abaea94.css.map": "/React-Wk2-Code-Challenge-Bot-Battlr/static/css/main.1abaea94.css.map",
+    "main.1ede5b56.js.map": "/React-Wk2-Code-Challenge-Bot-Battlr/static/js/main.1ede5b56.js.map",
+    "787.b292e1c6.chunk.js.map": "/React-Wk2-Code-Challenge-Bot-Battlr/static/js/787.b292e1c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1abaea94.css",
+    "static/js/main.1ede5b56.js"
+  ]
+}
