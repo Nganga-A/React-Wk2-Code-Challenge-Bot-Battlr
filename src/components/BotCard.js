@@ -41,7 +41,7 @@ function BotCard({ bot, enlistBot, releaseBot, dischargeBot , buttonText, onClic
     )}
     
     
-    {enlistBot && showEnlistButton &&  (
+    {enlistBot &&   (
         <button className="px-3 py-2 my-2 bg-blue-500 rounded-md text-sm text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform flex" onClick={handleEnlist}> Enlist </button> )}
 
     {releaseBot && <button className="px-3 py-2 my-2 bg-red-500 rounded-md text-sm text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform flex" onClick={handleRelease}>Release</button>}
