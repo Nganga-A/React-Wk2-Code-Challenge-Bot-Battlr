@@ -18,7 +18,7 @@ function App() {
 
   //Fetch
     useEffect(() =>  {
-      fetch('http://localhost:3000/bots')
+      fetch('https://db-json-ej0t.onrender.com/bots')
         .then((response) => response.json())
         .then((data) => {
         setAllBots(data.slice(0,12));
@@ -48,7 +48,7 @@ function App() {
           setEnlistedBots(enlistedBots.filter((bot) => bot.id !== botId));
           console.log(botId)
           // Then make a DELETE request to the backend API to remove it from the database
-            fetch(`http://localhost:3000/bots/${botId}`, {
+            fetch(`https://db-json-ej0t.onrender.com/bots/${botId}`, {
           method: "DELETE",
             });
 
